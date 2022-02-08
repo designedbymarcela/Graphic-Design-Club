@@ -1,0 +1,465 @@
+html {
+    font-family:Helvetica, sans-serif;
+}
+
+body { margin: 0; }
+
+/* Header and navigation */
+.topnav {
+	background-color: #0067C5;
+	height: 120px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top:0px;
+	left:0px;
+	justify-content: space-between;
+	z-index:1;
+} 
+
+.logo img {
+	width: 80px;
+	height:auto;
+	margin:10px;
+}
+
+.navmenu {
+	margin-right: 20px;
+    text-transform:uppercase ;
+}
+
+.navmenu img {
+	width:20px;
+    height:20px;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	margin: 0px 10px;
+}
+
+#menumobile {
+	display:none;
+}
+
+/* Main and hero */
+
+.main {
+	display: flex;
+	position: relative;
+	top: 110px;
+    left:0px;
+	width: 100%;
+	height:500px;
+	background-image:url('./Media/MainHero-02.png');
+	overflow:hidden;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	align-content: center;
+	justify-content: center;
+    align-items: flex-end;
+}
+
+.mission {
+    text-transform:uppercase;
+    text-align:center;
+	color:white;
+	background-color: #007F3E;
+	width:100%;
+}
+
+/* about */
+
+.about {
+	display: flex;
+	position:relative;
+	top:110px;
+    width: 100%;
+    height:500px;
+
+}
+
+.text {
+	display:flex;
+	flex-direction:column;
+	margin: auto 0;
+	width:50%;
+	text-align: left;
+}
+
+.text p {
+	width:70%;
+	margin:0 auto;
+}
+
+.text h2 {
+	width:70%;
+	margin:0 auto;
+}
+
+.imageabout {
+	width:50%;
+	background-image: url('./Media/OneDay.jpeg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+/*latest event*/
+
+.latestevent {
+	display: flex;
+	position:relative;
+	top:110px;
+    width: 100%;
+    height:500px;
+    
+}
+
+.imagelatestevent {
+	width:50%;
+	background-color: black;
+	justify-items: center;
+}
+
+.imagelatestevent img {
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+
+
+.textlatestevent {
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	text-align: left;
+	margin: auto 0;
+}
+
+.textlatestevent h2{ 
+	width:70%;
+	margin:0 auto;
+}
+.textlatestevent h3{ 
+	width:70%;
+	margin:0 auto;
+}
+.textlatestevent h4{ 
+	width:70%;
+	margin:0 auto;
+}
+.textlatestevent p{ 
+	width:70%;
+	margin:0 auto;
+}
+
+/* membership */
+
+.membership {
+		display: flex;
+		position:relative;
+		top:110px;
+		width: 100%;
+		height:500px;
+}
+
+.imagemembership {
+	width:50%;
+	background-image: url('./Media/members.jpeg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.textmembership {
+	display:flex;
+	flex-direction:column;
+	margin: auto 0;
+	width:50%;
+	text-align: left;
+}
+
+
+.textmembership h2{ 
+	width:70%;
+	margin:0 auto;
+}
+
+.textmembership p{ 
+	width:70%;
+	margin:0 auto;
+}
+
+
+.button {
+	background-color:#007F3E;
+	color:white;
+	width:70%;
+	margin: 0 auto;
+	text-align:center;
+	align-content:center;
+	padding:10px;
+	border-radius: 25px;
+}
+
+.button a {
+	text-transform: uppercase;
+	height:40px;
+	margin: auto 0;
+}
+
+/*upcoming event*/
+
+.upcomingevent {
+	display: flex;
+	position:relative;
+	top:110px;
+	width: 100%;
+	height:500px;
+}
+
+.imageupcomingevent {
+	display:contents;
+	width:50%;
+	justify-items: center;
+}
+
+.imageupcomingevent img{
+	width:50%;
+	height:100%;
+	object-fit: contain;
+	background-color: #fbf8ec;
+}
+
+.imageupcomingeventmini {
+	justify-items: center;
+	display:none;
+	width:35%;
+}
+
+.imageupcomingeventmini img{
+	width:35%;
+	height:100%;
+	object-fit: contain;
+	background-color: #fbf8ec;
+}
+
+.textupcomingevent {
+	display:flex;
+	flex-direction:column;
+	margin: auto 0;
+	width:50%;
+	text-align: left;
+}
+
+.textupcomingevent h2{ 
+	width:70%;
+	margin:0 auto;
+}
+
+.textupcomingevent h3{ 
+	width:70%;
+	margin:0 auto;
+}
+
+.textupcomingevent p{ 
+	width:70%;
+	margin:0 auto;
+}
+
+#upcomingnormal { 
+	display:contents;
+}
+
+#upcomingshort {
+	display: none;
+}
+
+/* footer */
+
+footer {
+	display:inline-flex;
+	justify-content:center;
+	width:100%;
+	height:150px;
+	justify-items:center;
+	align-items:center;
+	background-color:#007F3E;
+	color:white;
+	position:relative;
+	top:110px;
+}
+
+footer img{
+	width: 80px;
+	height:auto;
+	padding:0 50px;
+	border-right: 1px lightgray solid;
+}
+
+footer h4 {
+	padding-left:50px;
+}
+
+
+/* copyright */
+
+.Copyright {
+	display:flex;
+	align-items:center;
+	position:relative;
+	top:105px;
+    background-color: #282A35;
+	color:white;
+	padding-left:20px;
+	height:40px;
+}
+
+
+
+/* Changes for phone screen */
+
+@media only screen and (max-width: 413px) {
+	.Copyright {
+		position:static;
+		font-weight: 500;
+		font-size:14px;
+		text-align: center;
+	}
+	
+	footer {
+		position:static;
+	}
+
+	footer img{
+		padding:0 28px;
+		border-right: 1px lightgray solid;
+	}
+
+	footer h4 {
+		padding-left: 28px;
+		margin-right: 28px;
+		font-weight: 500;
+	}
+	
+	.upcomingevent {
+		position:static;
+		height:523px;
+	}
+
+	.imageupcomingevent {
+		display:none;
+	}
+
+	.imageupcomingeventmini {
+		display:contents;
+	}
+
+	.textupcomingevent {
+		width:65%;
+		text-align: center;
+	}
+
+	#upcomingnormal { 
+		display:none;
+	}
+
+	#upcomingshort {
+		display:contents;
+	}
+	
+	.membership {
+		position:static;
+		border-bottom: 2px #0067C5 solid;
+		height:523px;
+	}
+
+	.imagemembership {
+		width:35%;
+	}
+
+	.textmembership {
+		width:65%;
+		text-align:center;
+	}
+
+	.latestevent {
+		position:static;
+		border-bottom: 2px #0067C5 solid;
+		height:523px;
+	}
+	
+	.textlatestevent h4 {
+		color:grey;
+	}
+
+	.textlatestevent {
+		width:65%;
+		text-align: center;
+	}
+	
+	.imagelatestevent {
+		width:35%;
+	}
+
+	.about{
+		position:static;
+		border-bottom: 2px #0067C5 solid;
+		height:523px;
+	}
+
+	.text {
+		width:65%;
+		text-align:center;
+	}
+
+	.imageabout {
+		width:35%;
+		background-position:center;
+	}
+
+	.main {
+		position:static;
+		height:400px;	
+
+	}
+
+	.mission h2{
+		font-size:18px;
+		margin:0 20px;
+	}
+	 
+
+	.topnav {
+		height: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position:static;
+		left:5px;
+		max-width:413px;
+	}
+
+	.logo img {
+		width: 120px;
+		height:auto;
+	}
+	
+	.navmenu {
+		display:none;
+	}
+
+	#menumobile {
+		display:contents;
+	}
+
+	#menumobile img {
+		width:30px;
+		margin-right:5px;
+	}
+}
